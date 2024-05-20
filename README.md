@@ -44,7 +44,7 @@
 设置好才能正常获取 `google/timesfm-1.0-200m`
 - 8、开始预测
 `python timesfm.py`
-- 9、有可能性用的是
+- 9、有可能用得上的
 	- 退出conda环境：`conda deactivate`
 	- 删除当前环境（tfm_env）：`conda env remove --name tfm_env`
 	- 使用官方脚本重建环境：`conda env create --file=environment_cpu.yml`
