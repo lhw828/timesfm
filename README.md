@@ -50,3 +50,5 @@
 	- 使用官方脚本重建环境：`conda env create --file=environment_cpu.yml`
 	- 激活新建的环境：`conda activate tfm_env`
 	- 为新环境安装依赖：`pip install -e .`
+### 特别提示
+使用yfinance数据需要翻--.墙，墙..*内用户请注意，一定要全局代理，否则获取数据会失败导致程序无法执行。
