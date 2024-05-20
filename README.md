@@ -14,12 +14,14 @@
 - 1、部署环境
 	- 安装conda
 `wget https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh`
+
 `sh Anaconda3-2024.02-1-Linux-x86_64.sh`
-	- 配置conda
+- 2、 配置conda
 编辑`~/.bashrc`在.bashrc文件末尾添加：`export PATH="/root/anaconda3/bin:$PATH"`
 	- 修改后执行
 `source ~/.bashrc`
 - 2、下载timesfm
+
 `wget https://github.com/google-research/timesfm/archive/refs/heads/master.zip`
 
 `unzip timesfm-master.zip`
