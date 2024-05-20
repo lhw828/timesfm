@@ -21,8 +21,11 @@
 `source ~/.bashrc`
 - 2、下载timesfm
 `wget https://github.com/google-research/timesfm/archive/refs/heads/master.zip`
+
 `unzip timesfm-master.zip`
+
 `mv timesfm-master timesfm`
+
 `cd timesfm`
 - 3、选择CPU分支
 `conda env create --file=environment_cpu.yml`
