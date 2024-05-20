@@ -9,6 +9,7 @@ from huggingface_hub import login
 import matplotlib.pyplot as plt
 
 # 日经平均指数的数据取得
+# 获取yfinance数据需要翻墙，全局代理的那种
 start = datetime.date(2022, 1, 1)
 end = datetime.date.today()
 codelist = ["^N225"]
