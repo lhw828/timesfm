@@ -78,4 +78,4 @@ plt.savefig('comparison.png', bbox_inches='tight')
 plt.close(fig='all')
 
 # 使用本地数据进行预测和回溯对比
-# 解决Hugging的警告提示
+# 这段脚本因为硬件不足，未完成本地测试，稍后再测试，贴图。
